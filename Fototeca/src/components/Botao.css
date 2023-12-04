@@ -1,0 +1,17 @@
+/* src/components/botao.css */
+.botao {
+    /* Adicione estilos conforme necessário para o botão */
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    /* Adicione mais estilos conforme necessário */
+  }
+  
+  .botao:hover {
+    /* Adicione estilos de hover conforme necessário */
+    background-color: #0056b3;
+  }
+  
