@@ -1,20 +1,45 @@
 /* src/components/Inicio.css */
 .inicio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  
-  h1 {
-    font-size: 44pt;
-    margin-bottom: 10px;
-    color: #ffffff;
-  }
-  
-  p {
-    font-size: 28pt;
-    color: #ffffff; /* Cor do texto (pode ser ajustada conforme necessário) */
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 44pt;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+p {
+  font-size: 28pt;
+  color: #ffffff; /* Cor do texto (pode ser ajustada conforme necessário) */
+}
+
+label {
+  font-size: 20pt;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+input {
+  font-size: 18pt;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para o botão */
+button {
+  font-size: 20pt;
+  background-color: #007bff; /* Cor de fundo do botão (pode ser ajustada conforme necessário) */
+  color: #ffffff; /* Cor do texto do botão (pode ser ajustada conforme necessário) */
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse (pode ser ajustada conforme necessário) */
+}
