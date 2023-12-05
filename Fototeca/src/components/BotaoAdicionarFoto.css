@@ -1,0 +1,14 @@
+/* src/components/BotaoAdicionarFoto.css */
+.botao-adicionar-foto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px dashed #ccc; /* Adiciona uma borda tracejada ao redor do botão de adicionar */
+}
+
+.botao-adicionar-foto span {
+  font-size: 30px;
+  margin-bottom: 5px;
+}

@@ -1,12 +1,12 @@
 // App.jsx
 import React from 'react';
 import Inicio from './components/Inicio';
-import Botao from './components/Botao';
+import GaleriaFotos from './components/GaleriaFotos';
 
 function App() {
   return (
     <div>
-      <Inicio />
+      <GaleriaFotos />
     </div>
   );
 }

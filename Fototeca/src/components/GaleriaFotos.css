@@ -1,0 +1,29 @@
+/* src/components/GaleriaFotos.css */
+.galeria-fotos {
+    padding: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+  }
+  
+  .foto-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .foto-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .foto-item p {
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
