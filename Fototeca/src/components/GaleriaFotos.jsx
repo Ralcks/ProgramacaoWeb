@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import './GaleriaFotos.css';
 import BotaoAdicionarFoto from './BotaoAdicionarFoto';
 import Cabecalho from './Cabecalho';
+import BotaoSair from './BotaoSair'; // Importe o componente BotaoSair
+
 
 const GaleriaFotos = () => {
   // Estado para armazenar a lista de fotos
@@ -42,6 +44,7 @@ const GaleriaFotos = () => {
   return (
     <div className='galeria-fotos'>
       <Cabecalho />
+      <BotaoSair />
       <div className='grid-container'>
         {fotos.map((foto) => (
           <div key={foto.id} className='foto-item'>
