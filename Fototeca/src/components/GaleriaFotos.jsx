@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import './GaleriaFotos.css';
 import BotaoAdicionarFoto from './BotaoAdicionarFoto';
+import Cabecalho from './Cabecalho';
 
 const GaleriaFotos = () => {
   // Estado para armazenar a lista de fotos
@@ -40,7 +41,7 @@ const GaleriaFotos = () => {
 
   return (
     <div className='galeria-fotos'>
-      <h1>Fototeca</h1>
+      <Cabecalho />
       <div className='grid-container'>
         {fotos.map((foto) => (
           <div key={foto.id} className='foto-item'>
@@ -48,7 +49,6 @@ const GaleriaFotos = () => {
             <div className='descricao'>{foto.descricao}</div>
           </div>
         ))}
-
       </div>
 
       {/* Campos para adicionar nova foto */}
