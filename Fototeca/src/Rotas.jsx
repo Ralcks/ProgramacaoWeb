@@ -1,18 +1,14 @@
-// src/Rotas.jsx
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Inicio from './components/Inicio';
-import GaleriaFotos from './components/GaleriaFotos';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Inicio from './components/Inicio.jsx';
+import GaleriaFotos from './components/GaleriaFotos.jsx';
 
-const Rotas = () => {
+export default function Rotas() {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/galeria-fotos" element={<GaleriaFotos />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
-};
-
-export default Rotas;
+}
